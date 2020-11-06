@@ -17,22 +17,26 @@ Introduction:
 # FindIn
 FindInRepo :HR and Data expertise from 3K+ organizational hires and 30K+ job seeker interviews. It focuses on small-medium sized (SMB) organizations, &lt; 500 employees. The initial focus on developer/programmer/IT roles. The benefits are matched job seeker to their “right” opportunity, better organizational experience by reducing time and cost to recruit well-matched people and better job seeker experience as they never have to “apply” to a job again.
 
+INSTRUCTIONS
+-------------
 Instructions for the software setup in the working enviornment :
 
 Version 1- FindIN: 
 Feature dilivered : LoginIN, Registration for employee, Registration for job-seeker,and Database extablishment.
 
 Procedure to start the application:
-Edit programs/config.do to adjust the default path
-Run programs/00_setup.do once on a new system to set up the working environment.
-Download the data files referenced above. Each should be stored in the prepared subdirectories of data/, in the format that you download them in. Do not unzip. Scripts are provided in each directory to download the public-use files. Confidential data files requested as part of your FSRDC project will appear in the /data folder. No further action is needed on the replicator’s part.
-Run programs/01_master.do to run all steps in sequence.
+* Edit programs/config.do to adjust the default path
+* Run programs/00_setup.do once on a new system to set up the working environment.
+* Download the data files referenced above. Each should be stored in the prepared subdirectories of data/, in the format that you download them in. Do not unzip. Scripts are provided in each directory to download the public-use files. Confidential data files requested as part of your FSRDC project will appear in the /data folder. No further action is needed on the replicator’s part.
+* Run programs/01_master.do to run all steps in sequence.
 
 For c# and  ASP.NET:
-Open the startup.cs file with the userName and the key.
-Launch the FINDINdb file for the restoration into the local sytem or working space.
-Execute the SQL Server Manager Service in the working envirnment.
-Run the FindIN.SLN executable file in the setup enviornment.
+---------------------
+
+* Open the startup.cs file with the userName and the key.
+* Launch the FINDINdb file for the restoration into the local sytem or working space.
+* Execute the SQL Server Manager Service in the working envirnment.
+* Run the FindIN.SLN executable file in the setup enviornment.
 
 REQUIREMENTS
 ------------
